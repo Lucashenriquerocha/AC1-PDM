@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00FF00"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#00FF00">
+
+        <TextView
+            android:id="@+id/tvQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIZ AC1"
+            android:textSize="30sp"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Quem foi a primeira pessoa a viajar no Espaço? - Astronomia"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <RadioButton android:id="@+id/rbQ11" android:text="Neil Armstrong"  android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ12" android:text="Buzz Aldrin" android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+            <RadioButton android:id="@+id/rbQ13" android:text="Marcos Pontes" android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+            <RadioButton android:id="@+id/rbQ14" android:text="A cadela Laika" android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+            <RadioButton android:id="@+id/rbQ15" android:text="Yuri Gagarin" android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+
+            <TextView
+                android:id="@+id/tvFb1"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Qual a montanha mais alta do mundo? - Geografia"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <RadioButton android:id="@+id/rbQ21" android:text="Mauna Kea" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ22" android:text="Monte Everest" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ23" android:text="Pico da Neblina" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ24" android:text="Monte Chimborazo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ25" android:text="Dhaulagiri" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvFb2"
+                android:layout_width="354dp"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tvQuestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. A que temperatura a água ferve? - Física"
+            android:textSize="18sp"
+            android:padding="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <RadioButton android:id="@+id/rbQ31" android:text="0 ºC" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ32" android:text="-10 ºC" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ33" android:text="100 ºC" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ34" android:text="180 ºC" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <RadioButton android:id="@+id/rbQ35" android:text="200 ºC" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvFb3"
+                android:layout_width="355dp"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <Button
+            android:id="@+id/botValidar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Validar"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#ADD8E6"/>
+
+        <Button
+            android:id="@+id/botReset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reiniciar"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#ADD8E6"/>
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado: "
+            android:textSize="18sp"
+            android:padding="8dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
